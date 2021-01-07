@@ -1,5 +1,5 @@
 # Quantum-Machine-Learning
-This repositary contains implementation of Quantum Machine Learning Algorithms and comparison between classical machine learning algorithm and quantum machine learning algorithms.
+This repository contains implementation of Quantum Machine Learning Algorithms and comparison between classical machine learning algorithm and quantum machine learning algorithms.
 
 Here with the ad-hoc datasets, we can clearly see here the Quantum SVM completely overperforms the classical SVM with perfect accuracy.
 
