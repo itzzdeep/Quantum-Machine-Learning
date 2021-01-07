@@ -1,1 +1,7 @@
 # Quantum-Machine-Learning
+This repositary contains implementation of Quantum Machine Learning Algorithms and comparison between classical machine learning algorithm and quantum machine learning algorithms.
+
+Here with the ad-hoc datasets, we can clearly see here the Quantum SVM completely overperforms the classical SVM with perfect accuracy.
+
+## Why Quantum Machine Learning is so promising?
+In case of classification, finding a dividing hyperplane is often only possible in higher dimensions. This involves computing the distances between the datapoints in higher dimensional space. So if the dimension is very large, finding the distances very computionally expensive.So the simplier thing we do is called the "Kernel Trick". The kernel is some easily computable function that takes our datapoints and gives back a distance and the kernel can be optimized in order to maximize the distances between the classes of our data. Unfortunately, some kernel metrices are difficult to copute classically. So this is where Quantum Computer comes in.If the kernel can not be optimized classically, Quantum Machine Learning shows a lot of promise in being able to use the multidimensional computation space of the quantum computer in order to find the hyperplane.When data is mapped from its input dimension into the Hilbert space of the quantum computer,it naturally cast into higher dimensional space. So, the QSVM performs better than SVM.
